@@ -10,21 +10,11 @@
 
 import React from 'react';
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar } from 'react-native';
-import Api from './services/Api';
+import Site from './components/organisms/Site';
 
 declare const global: { HermesInternal: null | {} };
 
 const App = () => {
-    const mock = !!process.env.REACT_APP_MOCK_DATA || false;
-    console.log('mock?', mock);
-    const api = new Api(mock);
-    api.loadCurrentDate()
-        .then((result) => {
-            console.log('>>>> success >>>>>', result);
-        })
-        .catch((error) => {
-            console.log('>>>> error >>>>>', error);
-        });
     return (
         <>
             <StatusBar barStyle="dark-content" />
@@ -48,6 +38,7 @@ const App = () => {
                             <Text style={styles.sectionDescription}>Read the docs to discover what to do next:</Text>
                         </View>
                     </View>
+                    <Site />
                 </ScrollView>
             </SafeAreaView>
         </>

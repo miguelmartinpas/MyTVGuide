@@ -40,7 +40,7 @@ npm run test
 npm run load:data
 ```
 
-download logos from source
+## download logos from source
 
 ```
 npm run load:logos

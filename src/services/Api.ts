@@ -3,6 +3,8 @@ const PATH = 'programacion-tv';
 const VERSION = 'json';
 const DATE_FORMAT = /([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/;
 
+const MOCK_DATA = !!process.env.REACT_APP_MOCK_DATA || false;
+
 class Api {
     private cache: any;
     private lastDayLoaded: null | string;
@@ -97,4 +99,4 @@ class Api {
     };
 }
 
-export default Api;
+export default new Api(MOCK_DATA);
