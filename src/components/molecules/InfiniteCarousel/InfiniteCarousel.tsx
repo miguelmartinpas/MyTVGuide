@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList, View, Image } from 'react-native';
 
-interface Item {
+export interface Item {
     ref: string;
     title: string;
     image: string;
@@ -19,12 +19,14 @@ interface Props {
 const InfiniteCarousel = ({ items }: Props) => {
     const renderItem = ({ item }: FlatListItem): React.ReactElement => {
         return (
-            <View>
+            <View key={item.ref}>
                 <Image source={{ uri: item.image }} />
             </View>
         );
     };
-
+    if (items.length) {
+        console.log('InfiniteCarousel > items: ', items);
+    }
     return (
         <FlatList
             horizontal
