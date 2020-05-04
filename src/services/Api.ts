@@ -63,12 +63,14 @@ class Api {
     ): void => {
         if (this.mock) {
             let data = null;
-            try {
-                data = require(`../mocks/${this.getCurrentDate()}.json`);
-            } catch (error) {
-                data = require('../mocks/default.json');
-                data.default = true;
-            }
+            // try {
+            // console.log(`try to read ${`../mocks/${this.getCurrentDate()}.json`}`);
+            // data = require(`../mocks/${this.getCurrentDate()}.json`);
+            // } catch (error) {
+            console.log(`try to read ${'../mocks/default.json'}`);
+            data = require('../mocks/default.json');
+            data.default = true;
+            // }
             data.mock = true;
             successCallback(day, data);
         } else {

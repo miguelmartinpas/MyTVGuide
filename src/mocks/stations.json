@@ -1,0 +1,1434 @@
+[
+  {
+    "file": "TVE.png",
+    "code": "TVE",
+    "name": "LA 1",
+    "station": "01",
+    "width": 37,
+    "height": 33
+  },
+  {
+    "file": "LA2.png",
+    "code": "LA2",
+    "name": "LA 2",
+    "station": "02",
+    "width": 37,
+    "height": 33
+  },
+  {
+    "file": "A3.png",
+    "code": "A3",
+    "name": "Antena 3",
+    "station": "03",
+    "width": 31,
+    "height": 26
+  },
+  {
+    "file": "C4.png",
+    "code": "C4",
+    "name": "Cuatro",
+    "station": "04",
+    "width": 56,
+    "height": 13
+  },
+  {
+    "file": "T5.png",
+    "code": "T5",
+    "name": "Telecinco",
+    "station": "05",
+    "width": 31,
+    "height": 30
+  },
+  {
+    "file": "SEXTA.png",
+    "code": "SEXTA",
+    "name": "La Sexta",
+    "station": "06",
+    "width": 26,
+    "height": 35
+  },
+  {
+    "file": "MV3.png",
+    "code": "MV3",
+    "name": "#0",
+    "station": "07",
+    "width": 28,
+    "height": 31
+  },
+  {
+    "file": "VAMOSD.png",
+    "code": "VAMOSD",
+    "name": "#Vamos",
+    "station": "08",
+    "width": 65,
+    "height": 25
+  },
+  {
+    "file": "7TVMUR.png",
+    "code": "7TVMUR",
+    "name": "7 TV Región Murcia",
+    "station": "09",
+    "width": 36,
+    "height": 39
+  },
+  {
+    "file": "APUNT.png",
+    "code": "APUNT",
+    "name": "À Punt",
+    "station": "09",
+    "width": 38,
+    "height": 38
+  },
+  {
+    "file": "ARAGTV.png",
+    "code": "ARAGTV",
+    "name": "Aragón TV",
+    "station": "09",
+    "width": 54,
+    "height": 38
+  },
+  {
+    "file": "CANAR.png",
+    "code": "CANAR",
+    "name": "TV Canaria",
+    "station": "09",
+    "width": 62,
+    "height": 21
+  },
+  {
+    "file": "CANSUR.png",
+    "code": "CANSUR",
+    "name": "Canal Sur",
+    "station": "09",
+    "width": 32,
+    "height": 31
+  },
+  {
+    "file": "CASMAN.png",
+    "code": "CASMAN",
+    "name": "Castilla la Mancha TV",
+    "station": "09",
+    "width": 49,
+    "height": 38
+  },
+  {
+    "file": "CSURHD.png",
+    "code": "CSURHD",
+    "name": "Canal Sur HD",
+    "station": "09",
+    "width": 39,
+    "height": 33
+  },
+  {
+    "file": "CYLTV.png",
+    "code": "CYLTV",
+    "name": "La 7",
+    "station": "09",
+    "width": 34,
+    "height": 35
+  },
+  {
+    "file": "ETB1.png",
+    "code": "ETB1",
+    "name": "ETB 1",
+    "station": "09",
+    "width": 55,
+    "height": 20
+  },
+  {
+    "file": "EXTRE.png",
+    "code": "EXTRE",
+    "name": "Canal Extremadura",
+    "station": "09",
+    "width": 43,
+    "height": 36
+  },
+  {
+    "file": "IB3.png",
+    "code": "IB3",
+    "name": "IB3 RTV Illes Balears",
+    "station": "09",
+    "width": 31,
+    "height": 31
+  },
+  {
+    "file": "TELMAD.png",
+    "code": "TELMAD",
+    "name": "Telemadrid",
+    "station": "09",
+    "width": 72,
+    "height": 19
+  },
+  {
+    "file": "TPA.png",
+    "code": "TPA",
+    "name": "TPA",
+    "station": "09",
+    "width": 54,
+    "height": 22
+  },
+  {
+    "file": "TV3CAT.png",
+    "code": "TV3CAT",
+    "name": "TV3",
+    "station": "09",
+    "width": 50,
+    "height": 26
+  },
+  {
+    "file": "TVGAL.png",
+    "code": "TVGAL",
+    "name": "TVG - TV Galicia",
+    "station": "09",
+    "width": 23,
+    "height": 26
+  },
+  {
+    "file": "8TV.png",
+    "code": "8TV",
+    "name": "8 tv",
+    "station": "10",
+    "width": 22,
+    "height": 31
+  },
+  {
+    "file": "ANDATV.png",
+    "code": "ANDATV",
+    "name": "Andalucía TV",
+    "station": "10",
+    "width": 49,
+    "height": 46
+  },
+  {
+    "file": "ETB2.png",
+    "code": "ETB2",
+    "name": "ETB 2",
+    "station": "10",
+    "width": 45,
+    "height": 22
+  },
+  {
+    "file": "MEDITE.png",
+    "code": "MEDITE",
+    "name": "La Ocho TV",
+    "station": "10",
+    "width": 43,
+    "height": 46
+  },
+  {
+    "file": "OTRA.png",
+    "code": "OTRA",
+    "name": "La Otra",
+    "station": "10",
+    "width": 56,
+    "height": 21
+  },
+  {
+    "file": "CPSER.png",
+    "code": "CPSER",
+    "name": "Movistar Series",
+    "station": "11",
+    "width": 59,
+    "height": 22
+  },
+  {
+    "file": "MV2.png",
+    "code": "MV2",
+    "name": "M. Seriesmanía",
+    "station": "12",
+    "width": 89,
+    "height": 22
+  },
+  {
+    "file": "FOXGE.png",
+    "code": "FOXGE",
+    "name": "Fox",
+    "station": "13",
+    "width": 39,
+    "height": 17
+  },
+  {
+    "file": "AXN.png",
+    "code": "AXN",
+    "name": "AXN",
+    "station": "14",
+    "width": 60,
+    "height": 19
+  },
+  {
+    "file": "TNT.png",
+    "code": "TNT",
+    "name": "TNT",
+    "station": "15",
+    "width": 31,
+    "height": 31
+  },
+  {
+    "file": "PCM.png",
+    "code": "PCM",
+    "name": "Comedy Central",
+    "station": "16",
+    "width": 68,
+    "height": 24
+  },
+  {
+    "file": "CL13.png",
+    "code": "CL13",
+    "name": "Calle 13",
+    "station": "17",
+    "width": 34,
+    "height": 35
+  },
+  {
+    "file": "COSMO.png",
+    "code": "COSMO",
+    "name": "COSMO",
+    "station": "18",
+    "width": 42,
+    "height": 20
+  },
+  {
+    "file": "AMC.png",
+    "code": "AMC",
+    "name": "AMC",
+    "station": "19",
+    "width": 51,
+    "height": 29
+  },
+  {
+    "file": "FOXCR.png",
+    "code": "FOXCR",
+    "name": "Fox Life",
+    "station": "20",
+    "width": 64,
+    "height": 15
+  },
+  {
+    "file": "SET.png",
+    "code": "SET",
+    "name": "AXN White",
+    "station": "21",
+    "width": 61,
+    "height": 25
+  },
+  {
+    "file": "SCI-FI.png",
+    "code": "SCI-FI",
+    "name": "SYFY",
+    "station": "22",
+    "width": 28,
+    "height": 29
+  },
+  {
+    "file": "MTV.png",
+    "code": "MTV",
+    "name": "MTV",
+    "station": "24",
+    "width": 32,
+    "height": 19
+  },
+  {
+    "file": "FDFIC.png",
+    "code": "FDFIC",
+    "name": "Factoría de Ficción",
+    "station": "25",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "NEOX.png",
+    "code": "NEOX",
+    "name": "Neox",
+    "station": "26",
+    "width": 60,
+    "height": 15
+  },
+  {
+    "file": "ATRESS.png",
+    "code": "ATRESS",
+    "name": "Atreseries",
+    "station": "27",
+    "width": 39,
+    "height": 38
+  },
+  {
+    "file": "ENERGY.png",
+    "code": "ENERGY",
+    "name": "Energy",
+    "station": "28",
+    "width": 38,
+    "height": 31
+  },
+  {
+    "file": "MV1.png",
+    "code": "MV1",
+    "name": "Movistar Estrenos",
+    "station": "30",
+    "width": 72,
+    "height": 22
+  },
+  {
+    "file": "CPXTRA.png",
+    "code": "CPXTRA",
+    "name": "M.CineDoc&Roll",
+    "station": "31",
+    "width": 91,
+    "height": 21
+  },
+  {
+    "file": "DISNEY.png",
+    "code": "DISNEY",
+    "name": "Disney+",
+    "station": "32",
+    "width": 55,
+    "height": 30
+  },
+  {
+    "file": "CPACCI.png",
+    "code": "CPACCI",
+    "name": "Movistar Acción",
+    "station": "33",
+    "width": 63,
+    "height": 22
+  },
+  {
+    "file": "CPCOME.png",
+    "code": "CPCOME",
+    "name": "Movistar Comedia",
+    "station": "34",
+    "width": 74,
+    "height": 22
+  },
+  {
+    "file": "CPCOLE.png",
+    "code": "CPCOLE",
+    "name": "M. Drama",
+    "station": "35",
+    "width": 63,
+    "height": 22
+  },
+  {
+    "file": "DCESP.png",
+    "code": "DCESP",
+    "name": "Movistar Cine Español",
+    "station": "36",
+    "width": 61,
+    "height": 22
+  },
+  {
+    "file": "TCM.png",
+    "code": "TCM",
+    "name": "TCM",
+    "station": "37",
+    "width": 50,
+    "height": 14
+  },
+  {
+    "file": "HOLLYW.png",
+    "code": "HOLLYW",
+    "name": "Hollywood",
+    "station": "38",
+    "width": 71,
+    "height": 36
+  },
+  {
+    "file": "SUNDAN.png",
+    "code": "SUNDAN",
+    "name": "Sundance",
+    "station": "39",
+    "width": 71,
+    "height": 15
+  },
+  {
+    "file": "DARK.png",
+    "code": "DARK",
+    "name": "DARK",
+    "station": "40",
+    "width": 60,
+    "height": 17
+  },
+  {
+    "file": "13TV.png",
+    "code": "13TV",
+    "name": "13 TV",
+    "station": "41",
+    "width": 67,
+    "height": 16
+  },
+  {
+    "file": "TEN.png",
+    "code": "TEN",
+    "name": "Ten",
+    "station": "42",
+    "width": 47,
+    "height": 23
+  },
+  {
+    "file": "PARCH.png",
+    "code": "PARCH",
+    "name": "Paramount Channel",
+    "station": "43",
+    "width": 32,
+    "height": 32
+  },
+  {
+    "file": "MLIGA.png",
+    "code": "MLIGA",
+    "name": "M. LaLiga",
+    "station": "46",
+    "width": 60,
+    "height": 19
+  },
+  {
+    "file": "MLIG1.png",
+    "code": "MLIG1",
+    "name": "M. LaLiga 1",
+    "station": "47",
+    "width": 79,
+    "height": 24
+  },
+  {
+    "file": "MLIG2.png",
+    "code": "MLIG2",
+    "name": "M. LaLiga 2",
+    "station": "48",
+    "width": 81,
+    "height": 24
+  },
+  {
+    "file": "MLIG3.png",
+    "code": "MLIG3",
+    "name": "M. LaLiga 3",
+    "station": "49",
+    "width": 81,
+    "height": 24
+  },
+  {
+    "file": "CHAPIO.png",
+    "code": "CHAPIO",
+    "name": "M. Liga de Campeones",
+    "station": "50",
+    "width": 88,
+    "height": 33
+  },
+  {
+    "file": "CHAP1.png",
+    "code": "CHAP1",
+    "name": "M. Liga de Campeones 1",
+    "station": "51",
+    "width": 88,
+    "height": 34
+  },
+  {
+    "file": "CHAP2.png",
+    "code": "CHAP2",
+    "name": "M. Liga de Campeones 2",
+    "station": "52",
+    "width": 88,
+    "height": 34
+  },
+  {
+    "file": "CPDEP.png",
+    "code": "CPDEP",
+    "name": "Movistar Deportes",
+    "station": "53",
+    "width": 75,
+    "height": 22
+  },
+  {
+    "file": "ARTHUR.png",
+    "code": "ARTHUR",
+    "name": "M. Deportes 1",
+    "station": "54",
+    "width": 85,
+    "height": 22
+  },
+  {
+    "file": "USOP2.png",
+    "code": "USOP2",
+    "name": "M. Deportes 2",
+    "station": "55",
+    "width": 85,
+    "height": 22
+  },
+  {
+    "file": "USOP3.png",
+    "code": "USOP3",
+    "name": "M. Deportes 3",
+    "station": "56",
+    "width": 85,
+    "height": 22
+  },
+  {
+    "file": "MVF1.png",
+    "code": "MVF1",
+    "name": "Movistar Fórmula 1",
+    "station": "57",
+    "width": 83,
+    "height": 22
+  },
+  {
+    "file": "UBEAT.png",
+    "code": "UBEAT",
+    "name": "Ubeat",
+    "station": "58",
+    "width": 74,
+    "height": 13
+  },
+  {
+    "file": "GOLF+.png",
+    "code": "GOLF+",
+    "name": "Movistar Golf",
+    "station": "59",
+    "width": 51,
+    "height": 22
+  },
+  {
+    "file": "ESP.png",
+    "code": "ESP",
+    "name": "Eurosport 1",
+    "station": "61",
+    "width": 85,
+    "height": 9
+  },
+  {
+    "file": "ESP2.png",
+    "code": "ESP2",
+    "name": "Eurosport 2",
+    "station": "62",
+    "width": 85,
+    "height": 9
+  },
+  {
+    "file": "GOL.png",
+    "code": "GOL",
+    "name": "GOL",
+    "station": "63",
+    "width": 59,
+    "height": 12
+  },
+  {
+    "file": "TDEP.png",
+    "code": "TDEP",
+    "name": "Teledeporte",
+    "station": "64",
+    "width": 44,
+    "height": 30
+  },
+  {
+    "file": "CAZPES.png",
+    "code": "CAZPES",
+    "name": "Caza y Pesca",
+    "station": "65",
+    "width": 56,
+    "height": 27
+  },
+  {
+    "file": "IBERAL.png",
+    "code": "IBERAL",
+    "name": "Iberalia TV",
+    "station": "66",
+    "width": 73,
+    "height": 21
+  },
+  {
+    "file": "CFERIA.png",
+    "code": "CFERIA",
+    "name": "Toros",
+    "station": "67",
+    "width": 66,
+    "height": 28
+  },
+  {
+    "file": "REALM.png",
+    "code": "REALM",
+    "name": "Real Madrid TV",
+    "station": "68",
+    "width": 25,
+    "height": 39
+  },
+  {
+    "file": "BARNA.png",
+    "code": "BARNA",
+    "name": "Barça TV",
+    "station": "69",
+    "width": 68,
+    "height": 27
+  },
+  {
+    "file": "NATGEO.png",
+    "code": "NATGEO",
+    "name": "National Geographic",
+    "station": "70",
+    "width": 70,
+    "height": 21
+  },
+  {
+    "file": "NATGW.png",
+    "code": "NATGW",
+    "name": "Nat Geo Wild",
+    "station": "71",
+    "width": 73,
+    "height": 20
+  },
+  {
+    "file": "HIST.png",
+    "code": "HIST",
+    "name": "Historia",
+    "station": "72",
+    "width": 33,
+    "height": 31
+  },
+  {
+    "file": "DCR.png",
+    "code": "DCR",
+    "name": "Discovery",
+    "station": "73",
+    "width": 71,
+    "height": 15
+  },
+  {
+    "file": "ODISEA.png",
+    "code": "ODISEA",
+    "name": "Odisea",
+    "station": "74",
+    "width": 64,
+    "height": 16
+  },
+  {
+    "file": "BIOGRA.png",
+    "code": "BIOGRA",
+    "name": "Blaze",
+    "station": "75",
+    "width": 57,
+    "height": 31
+  },
+  {
+    "file": "VJR.png",
+    "code": "VJR",
+    "name": "Viajar",
+    "station": "76",
+    "width": 49,
+    "height": 18
+  },
+  {
+    "file": "DCRMAX.png",
+    "code": "DCRMAX",
+    "name": "Discovery Max",
+    "station": "77",
+    "width": 62,
+    "height": 23
+  },
+  {
+    "file": "CYM.png",
+    "code": "CYM",
+    "name": "Crimen + Investigación",
+    "station": "78",
+    "width": 43,
+    "height": 26
+  },
+  {
+    "file": "CCTV-E.png",
+    "code": "CCTV-E",
+    "name": "CGTN Español",
+    "station": "79",
+    "width": 47,
+    "height": 24
+  },
+  {
+    "file": "CACOC.png",
+    "code": "CACOC",
+    "name": "Canal Cocina",
+    "station": "80",
+    "width": 66,
+    "height": 19
+  },
+  {
+    "file": "DECASA.png",
+    "code": "DECASA",
+    "name": "Canal Decasa",
+    "station": "81",
+    "width": 60,
+    "height": 22
+  },
+  {
+    "file": "DKISS.png",
+    "code": "DKISS",
+    "name": "DKISS",
+    "station": "82",
+    "width": 52,
+    "height": 25
+  },
+  {
+    "file": "DIVINI.png",
+    "code": "DIVINI",
+    "name": "Divinity",
+    "station": "83",
+    "width": 23,
+    "height": 32
+  },
+  {
+    "file": "NOVA.png",
+    "code": "NOVA",
+    "name": "Nova",
+    "station": "84",
+    "width": 53,
+    "height": 15
+  },
+  {
+    "file": "MEGA.png",
+    "code": "MEGA",
+    "name": "Mega",
+    "station": "85",
+    "width": 51,
+    "height": 15
+  },
+  {
+    "file": "BEMAD.png",
+    "code": "BEMAD",
+    "name": "BE MAD",
+    "station": "86",
+    "width": 36,
+    "height": 31
+  },
+  {
+    "file": "GARAGE.png",
+    "code": "GARAGE",
+    "name": "El Garage TV",
+    "station": "87",
+    "width": 41,
+    "height": 36
+  },
+  {
+    "file": "ORBE21.png",
+    "code": "ORBE21",
+    "name": "Canal Orbe 21",
+    "station": "88",
+    "width": 66,
+    "height": 21
+  },
+  {
+    "file": "FUTREP.png",
+    "code": "FUTREP",
+    "name": "Canal Fútbol Replay",
+    "station": "89",
+    "width": 53,
+    "height": 24
+  },
+  {
+    "file": "BABY.png",
+    "code": "BABY",
+    "name": "Baby TV",
+    "station": "90",
+    "width": 49,
+    "height": 42
+  },
+  {
+    "file": "PLAYDC.png",
+    "code": "PLAYDC",
+    "name": "Disney Junior",
+    "station": "91",
+    "width": 63,
+    "height": 25
+  },
+  {
+    "file": "PANDA.png",
+    "code": "PANDA",
+    "name": "Canal Panda",
+    "station": "92",
+    "width": 65,
+    "height": 19
+  },
+  {
+    "file": "NICKJR.png",
+    "code": "NICKJR",
+    "name": "NICK JR",
+    "station": "93",
+    "width": 64,
+    "height": 19
+  },
+  {
+    "file": "NICK.png",
+    "code": "NICK",
+    "name": "Nickelodeon",
+    "station": "94",
+    "width": 79,
+    "height": 12
+  },
+  {
+    "file": "DCH.png",
+    "code": "DCH",
+    "name": "Disney Channel",
+    "station": "96",
+    "width": 56,
+    "height": 25
+  },
+  {
+    "file": "BOING.png",
+    "code": "BOING",
+    "name": "Boing",
+    "station": "97",
+    "width": 30,
+    "height": 30
+  },
+  {
+    "file": "CLANTV.png",
+    "code": "CLANTV",
+    "name": "Clan TVE",
+    "station": "98",
+    "width": 49,
+    "height": 35
+  },
+  {
+    "file": "ETB3.png",
+    "code": "ETB3",
+    "name": "ETB 3",
+    "station": "99",
+    "width": 41,
+    "height": 21
+  },
+  {
+    "file": "VH1.png",
+    "code": "VH1",
+    "name": "VH1",
+    "station": "105",
+    "width": 38,
+    "height": 15
+  },
+  {
+    "file": "MEZZO.png",
+    "code": "MEZZO",
+    "name": "Mezzo",
+    "station": "107",
+    "width": 62,
+    "height": 12
+  },
+  {
+    "file": "MEZOHD.png",
+    "code": "MEZOHD",
+    "name": "Mezzo Live HD",
+    "station": "108",
+    "width": 62,
+    "height": 26
+  },
+  {
+    "file": "CLASSI.png",
+    "code": "CLASSI",
+    "name": "Classica HD",
+    "station": "109",
+    "width": 65,
+    "height": 18
+  },
+  {
+    "file": "CLASSD.png",
+    "code": "CLASSD",
+    "name": "Classica",
+    "station": "109",
+    "width": 65,
+    "height": 18
+  },
+  {
+    "file": "PBOY.png",
+    "code": "PBOY",
+    "name": "Playboy TV",
+    "station": "111",
+    "width": 28,
+    "height": 30
+  },
+  {
+    "file": "24H.png",
+    "code": "24H",
+    "name": "24 Horas",
+    "station": "112",
+    "width": 45,
+    "height": 34
+  },
+  {
+    "file": "BBC.png",
+    "code": "BBC",
+    "name": "BBC World",
+    "station": "113",
+    "width": 44,
+    "height": 30
+  },
+  {
+    "file": "CNN.png",
+    "code": "CNN",
+    "name": "CNN Int",
+    "station": "114",
+    "width": 59,
+    "height": 22
+  },
+  {
+    "file": "FOXNWS.png",
+    "code": "FOXNWS",
+    "name": "Fox News",
+    "station": "115",
+    "width": 32,
+    "height": 30
+  },
+  {
+    "file": "ENW.png",
+    "code": "ENW",
+    "name": "Euronews",
+    "station": "116",
+    "width": 70,
+    "height": 15
+  },
+  {
+    "file": "ALJAZE.png",
+    "code": "ALJAZE",
+    "name": "Al Jazeera English",
+    "station": "117",
+    "width": 41,
+    "height": 43
+  },
+  {
+    "file": "FRA EN.png",
+    "code": "FRA EN",
+    "name": "FRANCE 24",
+    "station": "118",
+    "width": 30,
+    "height": 30
+  },
+  {
+    "file": "RTESP.png",
+    "code": "RTESP",
+    "name": "RT Español",
+    "station": "119",
+    "width": 31,
+    "height": 37
+  },
+  {
+    "file": "NBC.png",
+    "code": "NBC",
+    "name": "CNBC",
+    "station": "120",
+    "width": 39,
+    "height": 30
+  },
+  {
+    "file": "TV5.png",
+    "code": "TV5",
+    "name": "TV5MONDE",
+    "station": "122",
+    "width": 83,
+    "height": 11
+  },
+  {
+    "file": "BL.png",
+    "code": "BL",
+    "name": "Bloomberg",
+    "station": "123",
+    "width": 66,
+    "height": 15
+  },
+  {
+    "file": "INTECO.png",
+    "code": "INTECO",
+    "name": "El Toro TV",
+    "station": "124",
+    "width": 32,
+    "height": 29
+  },
+  {
+    "file": "SKYNW.png",
+    "code": "SKYNW",
+    "name": "Sky News",
+    "station": "124",
+    "width": 69,
+    "height": 15
+  },
+  {
+    "file": "RTFRHD.png",
+    "code": "RTFRHD",
+    "name": "RT France HD",
+    "station": "126",
+    "width": 61,
+    "height": 30
+  },
+  {
+    "file": "CNCWOR.png",
+    "code": "CNCWOR",
+    "name": "CNC World",
+    "station": "129",
+    "width": 29,
+    "height": 29
+  },
+  {
+    "file": "TELEFE.png",
+    "code": "TELEFE",
+    "name": "Telefe Internacional",
+    "station": "134",
+    "width": 60,
+    "height": 26
+  },
+  {
+    "file": "GALAV.png",
+    "code": "GALAV",
+    "name": "Canal de las Estrellas",
+    "station": "135",
+    "width": 65,
+    "height": 24
+  },
+  {
+    "file": "TVREC.png",
+    "code": "TVREC",
+    "name": "TV RECORD",
+    "station": "137",
+    "width": 34,
+    "height": 34
+  },
+  {
+    "file": "CHILE.png",
+    "code": "CHILE",
+    "name": "TV Chile",
+    "station": "138",
+    "width": 36,
+    "height": 36
+  },
+  {
+    "file": "COLOMB.png",
+    "code": "COLOMB",
+    "name": "TV Colombia",
+    "station": "139",
+    "width": 46,
+    "height": 40
+  },
+  {
+    "file": "CUBAV.png",
+    "code": "CUBAV",
+    "name": "Cubavisión",
+    "station": "141",
+    "width": 34,
+    "height": 38
+  },
+  {
+    "file": "TLESUR.png",
+    "code": "TLESUR",
+    "name": "Telesur",
+    "station": "142",
+    "width": 31,
+    "height": 34
+  },
+  {
+    "file": "NHK.png",
+    "code": "NHK",
+    "name": "NHK World TV",
+    "station": "143",
+    "width": 58,
+    "height": 15
+  },
+  {
+    "file": "EWTN.png",
+    "code": "EWTN",
+    "name": "EWTN",
+    "station": "143",
+    "width": 31,
+    "height": 42
+  },
+  {
+    "file": "ARIRAN.png",
+    "code": "ARIRAN",
+    "name": "ARIRANG TV",
+    "station": "144",
+    "width": 81,
+    "height": 21
+  },
+  {
+    "file": "ANTV.png",
+    "code": "ANTV",
+    "name": "Canal Sur Andalucía",
+    "station": "150",
+    "width": 38,
+    "height": 38
+  },
+  {
+    "file": "TVG.png",
+    "code": "TVG",
+    "name": "TV Galicia",
+    "station": "151",
+    "width": 62,
+    "height": 31
+  },
+  {
+    "file": "EXTREM.png",
+    "code": "EXTREM",
+    "name": "Canal Extremadura Sat",
+    "station": "152",
+    "width": 24,
+    "height": 31
+  },
+  {
+    "file": "TVC.png",
+    "code": "TVC",
+    "name": "TV3 Cat",
+    "station": "153",
+    "width": 50,
+    "height": 26
+  },
+  {
+    "file": "ETB.png",
+    "code": "ETB",
+    "name": "ETB Sat",
+    "station": "154",
+    "width": 71,
+    "height": 15
+  },
+  {
+    "file": "ARAGON.png",
+    "code": "ARAGON",
+    "name": "Aragón TV Int",
+    "station": "155",
+    "width": 38,
+    "height": 23
+  },
+  {
+    "file": "C33.png",
+    "code": "C33",
+    "name": "Canal 33",
+    "station": "156",
+    "width": 70,
+    "height": 25
+  },
+  {
+    "file": "ESP3.png",
+    "code": "ESP3",
+    "name": "Esport 3",
+    "station": "157",
+    "width": 43,
+    "height": 33
+  },
+  {
+    "file": "3_24.png",
+    "code": "3_24",
+    "name": "3 24",
+    "station": "158",
+    "width": 53,
+    "height": 21
+  },
+  {
+    "file": "BTV.png",
+    "code": "BTV",
+    "name": "Betevé",
+    "station": "160",
+    "width": 58,
+    "height": 17
+  },
+  {
+    "file": "TQ1.png",
+    "code": "TQ1",
+    "name": "Alquiler  1",
+    "station": "160",
+    "width": 50,
+    "height": 15
+  },
+  {
+    "file": "TQ2.png",
+    "code": "TQ2",
+    "name": "Alquiler  2",
+    "station": "161",
+    "width": 50,
+    "height": 15
+  },
+  {
+    "file": "TQ3.png",
+    "code": "TQ3",
+    "name": "Alquiler  3",
+    "station": "162",
+    "width": 50,
+    "height": 15
+  },
+  {
+    "file": "TQ4.png",
+    "code": "TQ4",
+    "name": "Alquiler 4",
+    "station": "163",
+    "width": 50,
+    "height": 15
+  },
+  {
+    "file": "TQ5.png",
+    "code": "TQ5",
+    "name": "Alquiler  5",
+    "station": "164",
+    "width": 50,
+    "height": 15
+  },
+  {
+    "file": "TQ6.png",
+    "code": "TQ6",
+    "name": "Alquiler  6",
+    "station": "165",
+    "width": 50,
+    "height": 15
+  },
+  {
+    "file": "HDTQ10.png",
+    "code": "HDTQ10",
+    "name": "Alquiler HD",
+    "station": "166",
+    "width": 50,
+    "height": 15
+  },
+  {
+    "file": "HDTQ2.png",
+    "code": "HDTQ2",
+    "name": "Alquiler 2 HD",
+    "station": "167",
+    "width": 50,
+    "height": 15
+  },
+  {
+    "file": "MLIG4.png",
+    "code": "MLIG4",
+    "name": "M. LaLiga 4",
+    "station": "176",
+    "width": 82,
+    "height": 24
+  },
+  {
+    "file": "MLIG5.png",
+    "code": "MLIG5",
+    "name": "M. LaLiga 5",
+    "station": "177",
+    "width": 82,
+    "height": 24
+  },
+  {
+    "file": "CHAP3.png",
+    "code": "CHAP3",
+    "name": "M. Liga de Campeones 3",
+    "station": "186",
+    "width": 88,
+    "height": 34
+  },
+  {
+    "file": "CHAP4.png",
+    "code": "CHAP4",
+    "name": "M. Liga de Campeones 4",
+    "station": "187",
+    "width": 88,
+    "height": 34
+  },
+  {
+    "file": "CHAP5.png",
+    "code": "CHAP5",
+    "name": "M. Liga de Campeones 5",
+    "station": "188",
+    "width": 88,
+    "height": 34
+  },
+  {
+    "file": "CHAP6.png",
+    "code": "CHAP6",
+    "name": "M. Liga de Campeones 6",
+    "station": "189",
+    "width": 88,
+    "height": 34
+  },
+  {
+    "file": "CHAP7.png",
+    "code": "CHAP7",
+    "name": "M. Liga de Campeones 7",
+    "station": "190",
+    "width": 88,
+    "height": 34
+  },
+  {
+    "file": "CHAP8.png",
+    "code": "CHAP8",
+    "name": "M. Liga de Campeones 8",
+    "station": "191",
+    "width": 88,
+    "height": 34
+  },
+  {
+    "file": "USOP11.png",
+    "code": "USOP11",
+    "name": "M. Deportes 4",
+    "station": "192",
+    "width": 85,
+    "height": 22
+  },
+  {
+    "file": "MULTI8.png",
+    "code": "MULTI8",
+    "name": "M. Deportes 5",
+    "station": "193",
+    "width": 85,
+    "height": 22
+  },
+  {
+    "file": "MULTI6.png",
+    "code": "MULTI6",
+    "name": "M. Deportes 6",
+    "station": "194",
+    "width": 85,
+    "height": 22
+  },
+  {
+    "file": "MULTI9.png",
+    "code": "MULTI9",
+    "name": "M. DEPORTES7",
+    "station": "195",
+    "width": 85,
+    "height": 22
+  },
+  {
+    "file": "MLIGUH.png",
+    "code": "MLIGUH",
+    "name": "M. LaLiga UHD",
+    "station": "440",
+    "width": 81,
+    "height": 21
+  },
+  {
+    "file": "CHAUHD.png",
+    "code": "CHAUHD",
+    "name": "M. Liga de Campeones UHD",
+    "station": "441",
+    "width": 88,
+    "height": 33
+  },
+  {
+    "file": "MF1UHD.png",
+    "code": "MF1UHD",
+    "name": "M. Fórmula 1 UHD ",
+    "station": "442",
+    "width": 91,
+    "height": 21
+  },
+  {
+    "file": "MLIG6.png",
+    "code": "MLIG6",
+    "name": "M. LaLiga 6",
+    "station": "178",
+    "width": 81,
+    "height": 24
+  },
+  {
+    "file": "MLIG9.png",
+    "code": "MLIG9",
+    "name": "M. LaLiga 9",
+    "station": "181",
+    "width": 81,
+    "height": 24
+  },
+  {
+    "file": "MLIG8.png",
+    "code": "MLIG8",
+    "name": "M. LaLiga 8",
+    "station": "180",
+    "width": 82,
+    "height": 24
+  },
+  {
+    "file": "MLIG7.png",
+    "code": "MLIG7",
+    "name": "M. LaLiga 7",
+    "station": "179",
+    "width": 81,
+    "height": 24
+  }
+]

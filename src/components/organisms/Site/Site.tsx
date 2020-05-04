@@ -1,5 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
+import assets from '../../../services/Assets';
 import withData from '../../higherOrder/withData';
 import withStations from '../../higherOrder/withStations';
 import withPrograms from '../../higherOrder/withPrograms';
@@ -11,25 +12,19 @@ interface Props {
     stations?: any[];
 }
 
-const HTTP_PATH = './assets/';
-
-const getLogoUrl = (code: string) => {
-    return `${HTTP_PATH}${code}.png`;
-};
-
 const Site = ({ stations = [] }: Props) => {
     const items: any[] = stations.map((station: any) => {
         return {
-            ref: station.CODIGO,
-            title: station.NOMBRE,
-            image: getLogoUrl(station.CODIGO),
+            ref: station.code,
+            title: station.title,
+            image: assets.getLogoUri(station.code),
+            width: station.width,
+            height: station.height,
         };
     });
     return (
-        <View>
-            <View>
-                <InfiniteCarousel items={items} />
-            </View>
+        <View style={{ marginTop: 100 }}>
+            <InfiniteCarousel items={items} />
         </View>
     );
 };

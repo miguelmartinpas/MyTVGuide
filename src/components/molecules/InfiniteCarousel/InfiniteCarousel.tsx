@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, View, Image } from 'react-native';
+import { FlatList, View, Text, Image } from 'react-native';
 
 export interface Item {
     ref: string;
@@ -18,9 +18,15 @@ interface Props {
 
 const InfiniteCarousel = ({ items }: Props) => {
     const renderItem = ({ item }: FlatListItem): React.ReactElement => {
+        // console.log('render', item.title, item.image);
         return (
             <View key={item.ref}>
-                <Image source={{ uri: item.image }} />
+                <Image
+                    source={{ uri: item.image }}
+                    resizeMethod="resize"
+                    style={{ width: item.width, height: item.height }}
+                />
+                <Text>{item.title}</Text>
             </View>
         );
     };
@@ -28,19 +34,21 @@ const InfiniteCarousel = ({ items }: Props) => {
         console.log('InfiniteCarousel > items: ', items);
     }
     return (
-        <FlatList
-            horizontal
-            refreshing={true}
-            showsHorizontalScrollIndicator={false}
-            removeClippedSubviews={true}
-            renderItem={(data: FlatListItem) => renderItem(data)}
-            data={items}
-            keyExtractor={(item: Item, index: number) => index.toString()}
-            onEndReached={() => {
-                console.log('end reached!!');
-            }}
-            onEndReachedThreshold={1.5}
-        />
+        <View>
+            <FlatList
+                horizontal
+                refreshing={true}
+                showsHorizontalScrollIndicator={false}
+                removeClippedSubviews={true}
+                renderItem={(data: FlatListItem) => renderItem(data)}
+                data={items}
+                keyExtractor={(item: Item, index: number) => index.toString()}
+                onEndReached={() => {
+                    console.log('end reached!!');
+                }}
+                onEndReachedThreshold={1.5}
+            />
+        </View>
     );
 };
 

@@ -3,7 +3,7 @@ const request = require('request');
 
 const HTTP_BASE_PATH = 'https://www.movistarplus.es/';
 const HTTP_PATH = 'recorte/m-NEO/guiapc/';
-const LOCAL_PATH = './assets/';
+const LOCAL_PATH = './public/assets/';
 
 const getLogoUrl = (code) => {
     return `${HTTP_BASE_PATH}${HTTP_PATH}${code}.png`;
