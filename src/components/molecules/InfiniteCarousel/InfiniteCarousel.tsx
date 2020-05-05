@@ -4,7 +4,9 @@ import { FlatList, View, Text, Image } from 'react-native';
 export interface Item {
     ref: string;
     title: string;
-    image: string;
+    image: any;
+    width: number;
+    height: number;
 }
 
 interface FlatListItem {
@@ -21,11 +23,7 @@ const InfiniteCarousel = ({ items }: Props) => {
         // console.log('render', item.title, item.image);
         return (
             <View key={item.ref}>
-                <Image
-                    source={{ uri: item.image }}
-                    resizeMethod="resize"
-                    style={{ width: item.width, height: item.height }}
-                />
+                <Image source={item.image} resizeMethod="resize" style={{ width: item.width, height: item.height }} />
                 <Text>{item.title}</Text>
             </View>
         );

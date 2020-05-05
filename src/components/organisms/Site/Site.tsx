@@ -17,7 +17,7 @@ const Site = ({ stations = [] }: Props) => {
         return {
             ref: station.code,
             title: station.title,
-            image: assets.getLogoUri(station.code),
+            image: assets.getLogo(station.code),
             width: station.width,
             height: station.height,
         };
