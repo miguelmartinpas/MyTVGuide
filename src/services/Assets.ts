@@ -1,6 +1,3 @@
-const BASE_URL = 'http://www.movistarplus.es';
-const PATH = 'programacion-tv';
-const VERSION = 'json';
 const BASE_HTTP = 'https://www.movistarplus.es/';
 const HTTP_PATH = 'recorte/m-NEO/guiapc/';
 const DEVIDE_PATH = `${BASE_HTTP}${HTTP_PATH}`;
