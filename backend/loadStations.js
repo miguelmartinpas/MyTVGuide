@@ -7,7 +7,7 @@ const getCurrentDate = () => {
     return date[1];
 };
 
-const data = require(`../src/mocks/${getCurrentDate()}.json`);
+const data = require(`../src/services/${getCurrentDate()}.json`);
 
 const stations = Object.keys(data.data).reduce((acc, index) => {
     const code = data.data[index].DATOS_CADENA.CODIGO;
@@ -24,5 +24,5 @@ const stations = Object.keys(data.data).reduce((acc, index) => {
     return acc;
 }, []);
 
-fs.writeFileSync('./src/mocks/stations.json', JSON.stringify(stations, null, 2));
+fs.writeFileSync('./src/services/stations.json', JSON.stringify(stations, null, 2));
 console.log('Stations info:', stations);

@@ -1,11 +1,8 @@
-const BASE_HTTP = 'https://www.movistarplus.es/';
-const HTTP_PATH = 'recorte/m-NEO/guiapc/';
-const DEVIDE_PATH = `${BASE_HTTP}${HTTP_PATH}`;
-//const DEVIDE_PATH = '../../public/assets/';
-const WEB_PATH = './assets/';
-const EXT = '.png';
+import { stations, Station } from './Stations';
 
 const IS_WEB = !!process.env.REACT_APP_IS_WEB || false;
+
+console.log('stations', stations);
 
 class Assets {
     private isWeb: boolean;
@@ -15,11 +12,17 @@ class Assets {
     }
 
     public getLogo = (code: string): any => {
-        return { uri: `${this.getPath()}${code}${EXT}` };
+        return this.isWeb ? this.getWebLogo(code) : this.getDeviceLogo(code);
     };
 
-    private getPath = (): string => {
-        return this.isWeb ? WEB_PATH : DEVIDE_PATH;
+    public getDeviceLogo = (code: string): any => {
+        const selectedStation = stations.find((station: Station): boolean => station.code === code);
+        return selectedStation && selectedStation.file;
+    };
+
+    public getWebLogo = (code: string): any => {
+        const selectedStation = stations.find((station: Station): boolean => station.code === code);
+        return { uri: selectedStation && selectedStation.file };
     };
 }
 

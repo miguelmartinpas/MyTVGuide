@@ -1,5 +1,5 @@
 import React from 'react';
-import extendStations from '../../../mocks/stations.json';
+import extendStations from '../../../services/stations.json';
 
 // const stationKey = 'DATOS_CADENA';
 

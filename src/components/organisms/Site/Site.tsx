@@ -1,5 +1,6 @@
 import React from 'react';
-import { View } from 'react-native';
+import 'react-native';
+import { SiteView } from './Site.styles';
 import assets from '../../../services/Assets';
 import withData from '../../higherOrder/withData';
 import withStations from '../../higherOrder/withStations';
@@ -23,9 +24,9 @@ const Site = ({ stations = [] }: Props) => {
         };
     });
     return (
-        <View style={{ marginTop: 100 }}>
+        <SiteView>
             <InfiniteCarousel items={items} />
-        </View>
+        </SiteView>
     );
 };
 
