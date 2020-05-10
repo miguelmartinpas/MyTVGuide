@@ -2,8 +2,6 @@ import { stations, Station } from './Stations';
 
 const IS_WEB = !!process.env.REACT_APP_IS_WEB || false;
 
-console.log('stations', stations);
-
 class Assets {
     private isWeb: boolean;
 

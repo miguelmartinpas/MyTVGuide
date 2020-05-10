@@ -1,33 +1,9 @@
 import React from 'react';
 import 'react-native';
-import { SiteView } from './Site.styles';
-import assets from '../../../services/Assets';
-import withData from '../../higherOrder/withData';
-import withStations from '../../higherOrder/withStations';
-import withPrograms from '../../higherOrder/withPrograms';
+import Guide from '../Guide';
 
-import InfiniteCarousel from '../../molecules/InfiniteCarousel';
-
-interface Props {
-    data?: any;
-    stations?: any[];
-}
-
-const Site = ({ stations = [] }: Props) => {
-    const items: any[] = stations.map((station: any) => {
-        return {
-            ref: station.code,
-            title: station.title,
-            image: assets.getLogo(station.code),
-            width: station.width,
-            height: station.height,
-        };
-    });
-    return (
-        <SiteView>
-            <InfiniteCarousel items={items} />
-        </SiteView>
-    );
+const Site = () => {
+    return <Guide />;
 };
 
-export default withData(withStations(withPrograms(Site)));
+export default Site;
