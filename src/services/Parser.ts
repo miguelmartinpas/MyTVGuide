@@ -5,7 +5,8 @@ class Parser {
         return stations.map((station: any) => {
             return {
                 ref: station.code,
-                title: station.station,
+                title: station.name,
+                station: station.station,
                 image: assets.getLogo(station.code),
                 width: station.width,
                 height: station.height,
@@ -18,6 +19,7 @@ class Parser {
             return {
                 ref: program.ELEMENTO,
                 title: program.TITULO,
+                category: program.GENERO,
                 from: program.HORA_INICIO,
                 to: program.HORA_FIN,
             };

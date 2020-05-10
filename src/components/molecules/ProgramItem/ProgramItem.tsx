@@ -4,6 +4,7 @@ import { View, Text } from 'react-native';
 export interface Item {
     ref: string;
     title: string;
+    category: string;
     from: string;
     to: string;
 }
@@ -19,7 +20,7 @@ const ProgramItem = ({ item, backgroundColor = '#FFF' }: Props): React.ReactElem
             key={item.ref}
             style={{
                 flexDirection: 'row',
-                height: 50,
+                height: 60,
                 justifyContent: 'center',
                 alignItems: 'center',
                 borderBottomWidth: 1,
@@ -28,10 +29,15 @@ const ProgramItem = ({ item, backgroundColor = '#FFF' }: Props): React.ReactElem
                 backgroundColor,
             }}
         >
-            <View style={{ flex: 5 }}>
-                <Text>{item.title}</Text>
+            <View style={{ flex: 5, flexDirection: 'column' }}>
+                <View style={{ flex: 1 }}>
+                    <Text style={{ color: 'gray' }}>{item.category}</Text>
+                </View>
+                <View style={{ flex: 2 }}>
+                    <Text>{item.title}</Text>
+                </View>
             </View>
-            <View style={{ flex: 1 }}>
+            <View style={{ flex: 1, alignItems: 'stretch' }}>
                 <Text>{item.from}</Text>
             </View>
         </View>

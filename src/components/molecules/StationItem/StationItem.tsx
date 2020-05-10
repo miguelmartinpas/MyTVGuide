@@ -4,6 +4,7 @@ import { View, Text, Image, TouchableHighlight } from 'react-native';
 interface Item {
     ref: string;
     title: string;
+    station: string;
     image: any;
     width: number;
     height: number;
@@ -40,7 +41,7 @@ const StationItem = ({ item, selected = false, onPress }: Props): React.ReactEle
                         fontWeight: 'bold',
                     }}
                 >
-                    {item.title}
+                    {item.station}
                 </Text>
                 <View style={{ flex: 1, paddingBottom: 20 }}>
                     <Image
