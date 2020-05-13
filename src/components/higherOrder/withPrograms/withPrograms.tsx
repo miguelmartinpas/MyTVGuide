@@ -12,8 +12,10 @@ const withPrograms = <P extends object>(Component: React.ComponentType<P>) => {
     const WithPrograms = (props: P & HocProps) => {
         const { data = {} } = props;
         const programs: any = Object.keys(data).reduce((acc: any, mainCode: string) => {
-            const code = data[mainCode][stationKey][stationCode];
-            acc[code] = data[mainCode][programKey];
+            if (data[mainCode] && data[mainCode][stationKey] && data[mainCode][stationKey][stationCode]) {
+                const code = data[mainCode][stationKey][stationCode];
+                acc[code] = data[mainCode][programKey];
+            }
             return acc;
         }, {});
         // if (Object.keys(programs).length) {

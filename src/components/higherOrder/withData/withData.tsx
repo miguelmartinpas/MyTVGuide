@@ -11,7 +11,7 @@ const withData = <P extends object>(Component: React.ComponentType<P>) => {
         useEffect(() => {
             const fetchDataAsync = async () => {
                 const currentData = await api.loadCurrentDate();
-                setData(currentData.data || {});
+                setData(currentData.data || currentData);
             };
             fetchDataAsync();
         }, []);

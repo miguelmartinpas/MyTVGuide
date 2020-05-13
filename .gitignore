@@ -65,3 +65,7 @@ buck-out/
 */.DS_Store
 .DS_Store
 */**/.DS_Store
+
+
+src/firebaseConfig.json
+src/userConfig.json

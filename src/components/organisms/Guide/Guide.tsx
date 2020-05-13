@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform } from 'react-native';
+import { Platform, Text } from 'react-native';
 import { GuideView } from './Guide.styles';
 import StationsList from '../../molecules/StationsList';
 import ProgramsList from '../../molecules/ProgramsList';
@@ -13,6 +13,9 @@ interface Props {
     stations?: any[];
     programs?: any;
 }
+
+// EPG https://github.com/SatadruBhattacharjee/react-tv-epg
+// tv_grab_es_movistartv https://github.com/MovistarTV/tv_grab_es_movistartv
 
 const Guide = ({ stations = [], programs = {} }: Props) => {
     const { useState } = React;
