@@ -12,9 +12,10 @@ interface Props {
     horizontal?: boolean;
     selected?: any;
     onPress?: any;
+    style?: any
 }
 
-const InfiniteList = ({ items, component, horizontal = false, selected, onPress }: Props) => {
+const InfiniteList = ({ items, component, horizontal = false, selected, onPress, style={} }: Props) => {
     const renderItem = ({ item, index }: FlatListItem): React.ReactElement => {
         const Component = component;
         const props = {
@@ -26,7 +27,7 @@ const InfiniteList = ({ items, component, horizontal = false, selected, onPress 
         return <Component key={index} {...props} />;
     };
     return (
-        <View>
+        <View style={style}>
             <FlatList
                 horizontal={horizontal}
                 refreshing={true}

@@ -23,9 +23,12 @@ const StationItem = ({ item, selected = false, onPress }: Props): React.ReactEle
             style={{
                 backgroundColor: selected === item.ref ? '#FFF' : '#ECEBE7',
                 width: 100,
-                height: 100,
+                height: 90,
                 justifyContent: 'center',
                 alignItems: 'center',
+                borderRightWidth: 1,
+                borderRightColor: 'grey',
+                borderStyle: 'solid'
             }}
             onPress={() => onPress(item.ref)}
             underlayColor={'white'}
@@ -33,17 +36,17 @@ const StationItem = ({ item, selected = false, onPress }: Props): React.ReactEle
             <View style={{ flexDirection: 'column' }}>
                 <Text
                     style={{
-                        flex: 1,
+                        flex: 2,
                         paddingTop: 10,
                         textAlign: 'center',
                         textAlignVertical: 'center',
-                        height: 15,
-                        fontWeight: 'bold',
+                        fontWeight: 'bold'
                     }}
                 >
                     {item.station}
                 </Text>
-                <View style={{ flex: 1, paddingBottom: 20 }}>
+                <View style={{ flex: 6, justifyContent: 'center',
+                alignItems: 'flex-start' }}>
                     <Image
                         source={item.image}
                         resizeMethod="resize"

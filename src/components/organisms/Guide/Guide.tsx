@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform, Text } from 'react-native';
+import { Platform, View, Text } from 'react-native';
 import { GuideView } from './Guide.styles';
 import StationsList from '../../molecules/StationsList';
 import ProgramsList from '../../molecules/ProgramsList';
@@ -37,8 +37,8 @@ const Guide = ({ data, stations = [], programs = {} }: Props) => {
 
     return (
         <GuideView style={{ marginTop: Platform.OS === 'ios' ? 30 : 0 }}>
-            <StationsList items={stationsItems} selected={currentStation} onPress={handleStation} />
-            <ProgramsList items={programItems} />
+            <StationsList style={{}} items={stationsItems} selected={currentStation} onPress={handleStation} />
+            <ProgramsList style={{ marginBottom: 180 }} items={programItems} />
         </GuideView>
     );
 };

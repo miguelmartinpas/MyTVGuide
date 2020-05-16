@@ -7,11 +7,12 @@ interface Props {
     items: any[];
     selected?: any;
     onPress?: any;
+    style?: any;
 }
 
-const StationsList = ({ items, selected, onPress }: Props) => {
+const StationsList = ({ items, selected, onPress, style={} }: Props) => {
     return (
-        <InfiniteList items={items} component={StationItem} horizontal={true} selected={selected} onPress={onPress} />
+        <InfiniteList style={style} items={items} component={StationItem} horizontal={true} selected={selected} onPress={onPress} />
     );
 };
 
