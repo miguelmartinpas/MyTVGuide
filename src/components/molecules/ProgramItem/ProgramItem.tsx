@@ -29,7 +29,7 @@ const ProgramItem = ({ item, backgroundColor = '#FFF' }: Props): React.ReactElem
                 backgroundColor,
             }}
         >
-            <View style={{ flex: 5, flexDirection: 'column' }}>
+            <View style={{ flex: 5, flexDirection: 'column', marginLeft: 5 }}>
                 <View style={{ flex: 1 }}>
                     <Text style={{ color: 'gray' }}>{item.category}</Text>
                 </View>

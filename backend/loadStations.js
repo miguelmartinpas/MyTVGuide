@@ -7,7 +7,7 @@ const getCurrentDate = () => {
     return date[1];
 };
 
-const data = require(`../src/services/${getCurrentDate()}.json`);
+const data = require(`../src/mocks/${getCurrentDate()}.json`);
 
 const stations = Object.keys(data.data).reduce((acc, index) => {
     const code = data.data[index].DATOS_CADENA.CODIGO;
@@ -16,6 +16,7 @@ const stations = Object.keys(data.data).reduce((acc, index) => {
         file: `${code}.png`,
         code,
         name: data.data[index].DATOS_CADENA.NOMBRE,
+        branch: data.data[index].DATOS_CADENA.MARCA,
         station: data.data[index].DATOS_CADENA.DIAL_PRINCIPAL[0],
         width: dimensions.width,
         height: dimensions.height,

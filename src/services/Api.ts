@@ -1,12 +1,9 @@
 import firebase from './Firebase';
 import config from '../config';
 
-// const BASE_URL = 'https://swapi.dev/api/people/';
-const BASE_URL = 'http://www.movistarplus.es';
-const PATH = 'programacion-tv';
-const VERSION = 'json';
 const PROXY_BASE_URL = 'https://my-tv-guide-proxy.herokuapp.com';
-const PROXY_PATH = 'broadcasting';
+// const PROXY_BASE_URL = 'http://localhost:3000';
+const PROXY_PATH = 'tv-programmes';
 const DATE_FORMAT = /([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/;
 
 const MOCK_DATA = !!process.env.REACT_APP_MOCK_DATA || false;
@@ -69,10 +66,6 @@ class Api {
         }
     };
 
-    private prepareUrl = (day: string) => {
-        return `${BASE_URL}/${PATH}/${day}?v=${VERSION}`
-    }
-
     private prepareUrlWithToken = (day: string) => {
         return `${PROXY_BASE_URL}/${PROXY_PATH}/${day}`
     }
@@ -102,14 +95,14 @@ class Api {
         } else {
             fetch(this.prepareUrlWithToken(day), this.getOptions())
                 .then((response) => {
-                    console.log('response', response);
+                    // console.log('response', response);
                     if (response.status === 200) {
                         return response.json();
                     }
                     throw new Error(`Error: ${response.status}: ${response.statusText} ${response.url}`);
                 })
                 .then((data) => {
-                    console.log('data', data);
+                    // console.log('data', data);
                     successCallback(day, data);
                 })
                 .catch((error) => {
