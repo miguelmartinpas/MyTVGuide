@@ -19,6 +19,10 @@ const withStations = <P extends object>(Component: React.ComponentType<P>) => {
             return { ...stationsWithKey[station.code], ...station };
         });
 
+        if (!stations.length) {
+            stations = extendStations;
+        }
+
         return <Component {...props} stations={stations} />;
     };
     return WithStations;

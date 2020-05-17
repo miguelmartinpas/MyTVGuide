@@ -1,12 +1,13 @@
 import React from 'react';
 import { Platform, View, Text } from 'react-native';
-import { GuideView } from './Guide.styles';
-import StationsList from '../../molecules/StationsList';
-import ProgramsList from '../../molecules/ProgramsList';
 import withData from '../../higherOrder/withData';
 import withStations from '../../higherOrder/withStations';
 import withPrograms from '../../higherOrder/withPrograms';
 import parser from '../../../services/Parser';
+import { GuideView } from './Guide.styles';
+import StationsList from '../../molecules/StationsList';
+import ProgramsList from '../../molecules/ProgramsList';
+import Loading from '../../molecules/Loading';
 
 interface Props {
     data?: any;
@@ -21,26 +22,26 @@ const Guide = ({ data, stations = [], programs = {} }: Props) => {
     const { useState } = React;
 
     const stationsItems: any[] = parser.parseStations(stations);
-    const initStation: string = stations[0] && stations[0].code;
-    const [currentStation, setCurrentStation] = useState<string>(initStation);
-    const initProgramItems: any[] = stations[0] && programs[stations[0].code] || [];
-    const [programItems, setProgramItems] = useState<any[]>(initProgramItems);
+    const [current, setCurrent] = useState<string>(stations[0] && stations[0].code);
 
     const handleStation = (code: string) => {
-        setCurrentStation(code);
-        setProgramItems(programs[code]);
+        setCurrent(code);
     };
 
-    if (!currentStation && initStation) {
-        handleStation(initStation)
+    const renderGuide = () => {
+        return (
+            <GuideView style={{ flex: 1 }}>
+                <StationsList style={{ flex: 3 }} items={stationsItems} selected={current} onPress={handleStation} />
+                <ProgramsList style={{ flex: 13 }} items={programs[current]} />
+            </GuideView>
+        )
     }
 
-    return (
-        <GuideView style={{ marginTop: Platform.OS === 'ios' ? 30 : 0, flex: 1}}>
-            <StationsList style={{ flex: 2 }} items={stationsItems} selected={currentStation} onPress={handleStation} />
-            <ProgramsList style={{ flex: 14 }} items={programItems} />
-        </GuideView>
-    );
+    const renderLoading = () => {
+        return <Loading items={stationsItems}/>;
+    }
+
+    return programs[current] ? renderGuide() : renderLoading();
 };
 
 export default withData(withStations(withPrograms(Guide)));
