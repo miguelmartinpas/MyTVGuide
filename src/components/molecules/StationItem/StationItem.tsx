@@ -21,17 +21,14 @@ const StationItem = ({ item, selected = false, onPress }: Props): React.ReactEle
         <TouchableHighlight
             key={item.ref}
             style={{
-                backgroundColor: selected === item.ref ? '#FFF' : '#ECEBE7',
-                width: 100,
-                height: 90,
+                backgroundColor: '#ECEBE7',
+                minWidth: 100,
                 justifyContent: 'center',
                 alignItems: 'center',
-                borderRightWidth: 1,
-                borderRightColor: 'grey',
-                borderStyle: 'solid'
+
             }}
             onPress={() => onPress(item.ref)}
-            underlayColor={'white'}
+            underlayColor={'#FFF00'}
         >
             <View style={{ flexDirection: 'column' }}>
                 <Text
@@ -45,13 +42,32 @@ const StationItem = ({ item, selected = false, onPress }: Props): React.ReactEle
                 >
                     {item.station}
                 </Text>
-                <View style={{ flex: 6, justifyContent: 'center',
-                alignItems: 'flex-start' }}>
+                <View style={{
+                    flex: 6,
+                    justifyContent: 'center',
+                    alignItems: 'flex-start',
+                    paddingBottom: 10
+                }}>
+                    <View style={{
+                        backgroundColor: selected === item.ref ? '#FFF' : '#ECEBE7',
+                        maxHeight: 80,
+                        maxWidth: 100,
+                        minHeight: 60,
+                        minWidth: 80,
+                        padding: 5,
+                        borderWidth: 1,
+                        borderColor: 'grey',
+                        borderStyle: 'solid',
+                        borderRadius: 10,
+                        justifyContent: 'center',
+                        alignItems: 'center'
+                    }}>
                     <Image
                         source={item.image}
                         resizeMethod="resize"
                         style={{ width: item.width, height: item.height }}
                     />
+                    </View>
                 </View>
             </View>
         </TouchableHighlight>

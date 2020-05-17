@@ -36,9 +36,9 @@ const Guide = ({ data, stations = [], programs = {} }: Props) => {
     }
 
     return (
-        <GuideView style={{ marginTop: Platform.OS === 'ios' ? 30 : 0 }}>
-            <StationsList style={{}} items={stationsItems} selected={currentStation} onPress={handleStation} />
-            <ProgramsList style={{ marginBottom: 180 }} items={programItems} />
+        <GuideView style={{ marginTop: Platform.OS === 'ios' ? 30 : 0, flex: 1}}>
+            <StationsList style={{ flex: 2 }} items={stationsItems} selected={currentStation} onPress={handleStation} />
+            <ProgramsList style={{ flex: 14 }} items={programItems} />
         </GuideView>
     );
 };
